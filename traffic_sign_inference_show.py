@@ -17,6 +17,10 @@ im_nn  = tf.image.resize_images(im, (H,W), method=tf.image.ResizeMethod.NEAREST_
 im_bic = tf.image.resize_images(im, (H,W), method=tf.image.ResizeMethod.BICUBIC)
 im_ar  = tf.image.resize_images(im, (H,W), method=tf.image.ResizeMethod.AREA)
 
+im_bi = tf.cast(im_bi, tf.uint8)
+im_bic = tf.cast(im_bic, tf.uint8)
+im_ar = tf.cast(im_ar, tf.uint8)
+
 ##im = tf.reshape(im, shape=[H,W, 3])
 
 sess = tf.Session()
