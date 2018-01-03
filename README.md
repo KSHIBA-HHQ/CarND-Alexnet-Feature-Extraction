@@ -13,3 +13,7 @@ python feature_extraction.py --training_file vgg_cifar10_100_bottleneck_features
 
 Cifar10データセットです。
 https://www.cs.toronto.edu/~kriz/cifar.html
+
+
+26章
+python feature_extraction.py --training_file bottlenecks/vgg_traffic_100_bottleneck_features_train.p --validation_file bottlenecks/vgg_traffic_bottleneck_features_validation.p
