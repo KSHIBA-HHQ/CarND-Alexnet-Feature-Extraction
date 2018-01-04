@@ -17,3 +17,7 @@ https://www.cs.toronto.edu/~kriz/cifar.html
 
 26章
 python feature_extraction.py --training_file bottlenecks/vgg_traffic_100_bottleneck_features_train.p --validation_file bottlenecks/vgg_traffic_bottleneck_features_validation.p
+
+
+旧版シミュレータ
+https://d17h27t6h515a5.cloudfront.net/topher/2016/November/5831f0f7_simulator-linux/simulator-linux.zip
